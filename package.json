@@ -1,0 +1,14 @@
+{
+  "name": "brainless_news_generator",
+  "version": "1.0.0",
+  "description": "generator of brainless murder news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^1.11.0"
+  }
+}
