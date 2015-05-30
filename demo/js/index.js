@@ -1,5 +1,4 @@
 (function() {
-    jQuery("#generate").on("click", generate);
     function generate() {
         var input = extractInput(),
             content = generateContent(input);
@@ -53,4 +52,7 @@
         value = value || $obj.attr("placeholder");
         return value;
     }
+
+    jQuery("#generate").on("click", generate);
+    generate();
 }());
